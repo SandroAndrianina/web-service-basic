@@ -1,0 +1,616 @@
+CRITICAL - 2026-10-15 06:26:44 --> ErrorException: Undefined variable $route
+[Method: CLI, Route: serve]
+in APPPATH/Config/Routes.php on line 8.
+ 1 APPPATH/Config/Routes.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', '/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/app/Config/Routes.php', 8)
+ 2 SYSTEMPATH/Router/RouteCollection.php(339): require('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/app/Config/Routes.php')
+ 3 SYSTEMPATH/CLI/Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/Boot.php(444): CodeIgniter\CLI\Console->run()
+ 5 SYSTEMPATH/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 6 ROOTPATH/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-10-15 06:27:48 --> ErrorException: Undefined variable $route
+[Method: CLI, Route: serve]
+in APPPATH/Config/Routes.php on line 8.
+ 1 APPPATH/Config/Routes.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $route', '/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/app/Config/Routes.php', 8)
+ 2 SYSTEMPATH/Router/RouteCollection.php(339): require('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/app/Config/Routes.php')
+ 3 SYSTEMPATH/CLI/Console.php(41): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 4 SYSTEMPATH/Boot.php(444): CodeIgniter\CLI\Console->run()
+ 5 SYSTEMPATH/Boot.php(166): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 6 ROOTPATH/spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2026-10-15 06:31:12 --> Error: Undefined constant "App\Controllers\handle"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:31:15 --> Error: Undefined constant "App\Controllers\handle"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:31:15 --> Error: Undefined constant "App\Controllers\handle"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:31:16 --> Error: Undefined constant "App\Controllers\handle"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:31:16 --> Error: Undefined constant "App\Controllers\handle"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:31:16 --> Error: Undefined constant "App\Controllers\handle"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:31:17 --> Error: Undefined constant "App\Controllers\handle"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:31:17 --> Error: Undefined constant "App\Controllers\handle"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:31:17 --> Error: Undefined constant "App\Controllers\handle"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:31:18 --> Error: Undefined constant "App\Controllers\handle"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:31:44 --> Error: Undefined constant "App\Controllers\handle"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 13.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:55:25 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:55:27 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:55:27 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:55:27 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:55:27 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:55:28 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:56:08 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:56:41 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:56:45 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:18 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:19 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:20 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:21 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:21 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:21 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:21 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:21 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:21 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:22 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:22 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:22 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:22 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:22 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:23 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 06:57:23 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:00:30 --> Error: Undefined constant "App\Controllers\this"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 18.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:05:47 --> Error: Undefined constant "App\Controllers\WRITE_PATH"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->showHeaders()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:12:37 --> Error: Undefined constant "App\Controllers\count"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:12:39 --> Error: Undefined constant "App\Controllers\count"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:12:40 --> Error: Undefined constant "App\Controllers\count"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:12:40 --> Error: Undefined constant "App\Controllers\count"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:13:58 --> Error: Undefined constant "App\Controllers\count"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:13:59 --> Error: Undefined constant "App\Controllers\count"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:14:00 --> Error: Undefined constant "App\Controllers\count"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:14:00 --> Error: Undefined constant "App\Controllers\count"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:14:00 --> Error: Undefined constant "App\Controllers\count"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:14:00 --> Error: Undefined constant "App\Controllers\count"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:14:00 --> Error: Undefined constant "App\Controllers\count"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:14:32 --> Error: Undefined constant "App\Controllers\count"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:14:34 --> Error: Undefined constant "App\Controllers\count"
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:33:04 --> TypeError: fgetcsv(): Argument #2 ($length) must be of type ?int, string given
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 22.
+ 1 APPPATH/Controllers/ProvinceController.php(22): fgetcsv(resource (stream), ';')
+ 2 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:33:06 --> TypeError: fgetcsv(): Argument #2 ($length) must be of type ?int, string given
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 22.
+ 1 APPPATH/Controllers/ProvinceController.php(22): fgetcsv(resource (stream), ';')
+ 2 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:33:06 --> TypeError: fgetcsv(): Argument #2 ($length) must be of type ?int, string given
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 22.
+ 1 APPPATH/Controllers/ProvinceController.php(22): fgetcsv(resource (stream), ';')
+ 2 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:33:09 --> TypeError: fgetcsv(): Argument #2 ($length) must be of type ?int, string given
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 22.
+ 1 APPPATH/Controllers/ProvinceController.php(22): fgetcsv(resource (stream), ';')
+ 2 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:33:10 --> TypeError: fgetcsv(): Argument #2 ($length) must be of type ?int, string given
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 22.
+ 1 APPPATH/Controllers/ProvinceController.php(22): fgetcsv(resource (stream), ';')
+ 2 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:33:11 --> TypeError: fgetcsv(): Argument #2 ($length) must be of type ?int, string given
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 22.
+ 1 APPPATH/Controllers/ProvinceController.php(22): fgetcsv(resource (stream), ';')
+ 2 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:33:11 --> TypeError: fgetcsv(): Argument #2 ($length) must be of type ?int, string given
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 22.
+ 1 APPPATH/Controllers/ProvinceController.php(22): fgetcsv(resource (stream), ';')
+ 2 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 07:33:11 --> TypeError: fgetcsv(): Argument #2 ($length) must be of type ?int, string given
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 22.
+ 1 APPPATH/Controllers/ProvinceController.php(22): fgetcsv(resource (stream), ';')
+ 2 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 3 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 4 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')

@@ -1,18 +1,18 @@
 **Milestones (CI4 + Servlet/JSP + HttpClient + JDBC/MySQL)**
 
-**Phase 1 – PHP (data provider)**
-1. Create the CI4 project and run it locally.
-2. Create the file `provinces.csv` (id, name) in `writable/`.
-3. Build a Provinces controller that reads the CSV and returns JSON.
-4. Add the route `GET /api/provinces` (optionally `GET /api/provinces/{id}`).
-5. Test the endpoint in the browser or Postman.
+[x]**Phase 1 – PHP (data provider)**
+[x] 1. Create the CI4 project and run it locally.
+[x] 2. Create the file `provinces.csv` (id, name) in `writable/`.
+[x] 3. Build a Provinces controller that reads the CSV and returns JSON.
+[x] 4. Add the route `GET /api/provinces` (optionally `GET /api/provinces/{id}`).
+[x] 5. Test the endpoint in the browser or Postman.
 
-**Phase 2 – Database (MySQL)**
-6. Create the database and the table `students(id, name, age, province_id)`.
+[x] **Phase 2 – Database (MySQL)**
+[x] 6. Create the database and the table `students(id, name, age, province_id)`.
 
 **Phase 3 – Java (business logic)**
-7. Create the Tomcat web project (Servlet + JSP, JDBC driver added).
-8. Model: `Student` class.
+[x] 7. Create the Tomcat web project (Servlet + JSP, JDBC driver added).
+[x]8. Model: `Student` class.
 9. DAO layer: JDBC connection + CRUD (create, read all, read one, update, delete).
 10. Service for the PHP call: `HttpClient` that fetches `/api/provinces` and parses the JSON into a list.
 11. Business service: validation (name not empty, age valid, province exists) and links DAO and the province service.
