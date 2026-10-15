@@ -614,3 +614,75 @@ in APPPATH/Controllers/ProvinceController.php on line 22.
  6 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  7 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
  8 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 10:23:11 --> ErrorException: fopen(/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv): Failed to open stream: No such file or directory
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv): Failed to open stream: No such file or directory', '/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/app/Controllers/ProvinceController.php', 16)
+ 2 APPPATH/Controllers/ProvinceController.php(16): fopen('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv', 'r')
+ 3 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 4 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 5 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 10:23:12 --> ErrorException: fopen(/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv): Failed to open stream: No such file or directory
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv): Failed to open stream: No such file or directory', '/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/app/Controllers/ProvinceController.php', 16)
+ 2 APPPATH/Controllers/ProvinceController.php(16): fopen('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv', 'r')
+ 3 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 4 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 5 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 10:23:12 --> ErrorException: fopen(/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv): Failed to open stream: No such file or directory
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv): Failed to open stream: No such file or directory', '/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/app/Controllers/ProvinceController.php', 16)
+ 2 APPPATH/Controllers/ProvinceController.php(16): fopen('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv', 'r')
+ 3 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 4 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 5 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 10:23:12 --> ErrorException: fopen(/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv): Failed to open stream: No such file or directory
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv): Failed to open stream: No such file or directory', '/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/app/Controllers/ProvinceController.php', 16)
+ 2 APPPATH/Controllers/ProvinceController.php(16): fopen('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv', 'r')
+ 3 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 4 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 5 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 10:23:13 --> ErrorException: fopen(/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv): Failed to open stream: No such file or directory
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv): Failed to open stream: No such file or directory', '/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/app/Controllers/ProvinceController.php', 16)
+ 2 APPPATH/Controllers/ProvinceController.php(16): fopen('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv', 'r')
+ 3 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 4 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 5 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')
+CRITICAL - 2026-10-15 10:23:13 --> ErrorException: fopen(/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv): Failed to open stream: No such file or directory
+[Method: GET, Route: api/province]
+in APPPATH/Controllers/ProvinceController.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv): Failed to open stream: No such file or directory', '/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/app/Controllers/ProvinceController.php', 16)
+ 2 APPPATH/Controllers/ProvinceController.php(16): fopen('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/writable/provinces.csv', 'r')
+ 3 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\ProvinceController->getAllProvinces()
+ 4 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProvinceController))
+ 5 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH/rewrite.php(44): require_once('/Users/rabarijohnsandroandrianina/Documents/GitHub/web-service-basic/php-api/public/index.php')

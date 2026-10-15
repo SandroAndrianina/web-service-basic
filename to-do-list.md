@@ -12,10 +12,10 @@
 
 **Phase 3 – Java (business logic)**
 [x] 7. Create the Tomcat web project (Servlet + JSP, JDBC driver added).
-[x]8. Model: `Student` class.
-9. DAO layer: JDBC connection + CRUD (create, read all, read one, update, delete).
-10. Service for the PHP call: `HttpClient` that fetches `/api/provinces` and parses the JSON into a list.
-11. Business service: validation (name not empty, age valid, province exists) and links DAO and the province service.
+[x] 8. Model: `Student` class.
+[x] 9. DAO layer: JDBC connection + CRUD (create, read all, read one, update, delete).
+[x] 10. Service for the PHP call: `HttpClient` that fetches `/api/provinces` and parses the JSON into a list.
+[x] 11. Business service: validation (name not empty, age valid, province exists) and links DAO and the province service.
 12. Servlet controller: routes list / new / edit / delete / save.
 
 **Phase 4 – JSP (client)**

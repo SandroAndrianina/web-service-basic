@@ -29,3 +29,10 @@
     -une fonction static utilise des valeurs static
     -try : contient une declaration de variable -> afficher l'erreur avec "e.getMessage()" avec un print
     -reference le chemin des librairies
+    -open a connection -> close this connection
+
+# ERROR6 : IPV4 and IPV6
+
+    -macos listens IPV6
+
+# ERROR7 : call the driver

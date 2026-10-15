@@ -13,7 +13,7 @@ class ProvinceController extends BaseController
         $count = 0;
 
         //ouvrir le fichier
-        $handle = fopen(WRITEPATH . "provinces.csv", 'r');
+        $handle = fopen(WRITEPATH . "provinces", 'r');
 
         //lire l'en-tete
         $headers = fgetcsv($handle, 0, ';');

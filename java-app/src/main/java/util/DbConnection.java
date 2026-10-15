@@ -8,9 +8,13 @@ public class DbConnection {
     private static final String USERNAME = "root";
     private static final String PASSWORD = "";
 
-    public static java.sql.Connection getConnection() throws SQLException {
-        java.sql.Connection connection = DriverManager.getConnection(URL, USERNAME, PASSWORD);
-        return connection;
+public static Connection getConnection() throws SQLException {
+    try {
+        Class.forName("org.mariadb.jdbc.Driver");
+    } catch (ClassNotFoundException e) {
+        throw new SQLException("MariaDB driver not found in WEB-INF/lib", e);
     }
+    return DriverManager.getConnection(URL, USERNAME, PASSWORD);
+}
 
 }
