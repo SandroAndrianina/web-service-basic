@@ -35,5 +35,16 @@ class ProvinceController extends BaseController
 
     }
 
-    
+    public function addProvince($province_name) : ResponseInterface {
+
+        //tableau vide
+        $list_provinces = [];
+        $count = 0;
+
+        //ouvrir le fichier        
+        $handle = fopen(WRITEPATH . "provinces", 'w');
+
+        
+
+    }
 }

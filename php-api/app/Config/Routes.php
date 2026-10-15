@@ -6,3 +6,4 @@ use CodeIgniter\Router\RouteCollection;
 $routes->get('/', 'Home::index');
 
 $routes->get('api/province', 'ProvinceController::getAllProvinces');
+$routes->post('api/province', 'ProvinceController::addProvince');
